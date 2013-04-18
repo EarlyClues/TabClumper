@@ -1,0 +1,8 @@
+content     tabclumper    chrome/content/
+content     tabclumper    chrome/content/ contentaccessible=yes
+overlay chrome://browser/content/browser.xul chrome://tabclumper/content/browser.xul
+
+locale	tabclumper	en-US	locale/en-US/
+
+skin	tabclumper	classic/1.0	skin/
+style	chrome://global/content/customizeToolbar.xul	chrome://tabclumper/skin/skin.css

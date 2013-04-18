@@ -1,0 +1,37 @@
+<?xml version="1.0"?>
+<RDF xmlns="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+xmlns:em="http://www.mozilla.org/2004/em-rdf#">
+    <Description about="urn:mozilla:install-manifest">
+        <em:id>tabclumper@earlyclues.com</em:id>
+
+        <em:name>Tab Clumper</em:name>
+        <em:version>1.0</em:version>
+        <em:type>2</em:type>
+        <em:creator>RICHARD STALLMAN'S RIDER</em:creator>
+
+        <em:description>FireFox Plugin which links together tabs of your choosing, and saves them as a group or publishes them as a "clump" (with possibility of adding notes)</em:description>
+        <em:homepageURL>https://github.com/EarlyClues/TabClumper</em:homepageURL>
+        <em:optionsURL>chrome://tabclumper/content/options.xul</em:optionsURL>
+
+        <!-- Firefox -->
+        <em:targetApplication>
+            <Description>
+                <em:id>{ec8030f7-c20a-464f-9b0e-13a3a9e97384}</em:id>
+                <em:minVersion>1.5</em:minVersion>
+                <em:maxVersion>12.*</em:maxVersion>
+            </Description>
+        </em:targetApplication>
+
+        <!-- Flock -->
+        <!--
+        <em:targetApplication>
+            <Description>
+                <em:id>{a463f10c-3994-11da-9945-000d60ca027b}</em:id>
+                <em:minVersion>0.4</em:minVersion>
+                <em:maxVersion>0.8</em:maxVersion>
+            </Description>
+        </em:targetApplication>
+        -->
+    </Description>
+</RDF>
+

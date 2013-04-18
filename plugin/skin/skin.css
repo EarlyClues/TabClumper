@@ -1,0 +1,12 @@
+#tab-clumper-toolbar-button {
+	list-style-image: url("chrome://tabclumper/skin/toolbar-large.png");
+}
+
+#tab-clumper-status-bar-icon {
+	width: 83px;
+	margin: 0 5px;
+}
+
+.tab-clumper-selected {
+	outline: 2px solid red !important;
+}

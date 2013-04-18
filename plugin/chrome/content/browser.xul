@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<?xml-stylesheet href="chrome://tabclumper/skin/skin.css" type="text/css"?>
+<!DOCTYPE tabclumper SYSTEM "chrome://tabclumper/locale/translations.dtd">
+<overlay id="sample" xmlns="http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul">
+    <script src="tabClumper.js" />
+    <menupopup id="menu_ToolsPopup">
+        <menuitem label="&runtabclumper;" key="tab-clumper-key" oncommand="tabClumper.run()"/>
+    </menupopup>
+
+    <keyset>
+        <key id="link-clumper-key" modifiers="accel alt shift" key="T"
+            oncommand="tabClumper.run()"/>
+    </keyset>
+
+    <statusbar id="status-bar">
+        <statusbarpanel id="tab-clumper-status-bar-icon" class="statusbarpanel-iconic" src="chrome://tabClumper/skin/status-bar.png" tooltiptext="&runtabclumper;" onclick="tabClumper.run()" />
+    </statusbar>
+
+    <toolbarpalette id="BrowserToolbarPalette">
+        <toolbarbutton id="link-clumper-toolbar-button" label="Tab Clumper" tooltiptext="&runtabclumper;" oncommand="tabClumper.run()"/>
+    </toolbarpalette>
+</overlay>
