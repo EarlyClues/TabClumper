@@ -11,7 +11,7 @@ xmlns:em="http://www.mozilla.org/2004/em-rdf#">
 
         <em:description>FireFox Plugin which links together tabs of your choosing, and saves them as a group or publishes them as a "clump" (with possibility of adding notes)</em:description>
         <em:homepageURL>https://github.com/EarlyClues/TabClumper</em:homepageURL>
-        <em:optionsURL>chrome://tabclumper/content/options.xul</em:optionsURL>
+        <em:optionsURL>chrome://tabclumper/options.xul</em:optionsURL>
 
         <!-- Firefox -->
         <em:targetApplication>
